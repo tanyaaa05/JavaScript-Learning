@@ -1,0 +1,14 @@
+❓ Why is immutability in objects tricky in JavaScript?
+Ans. Because objects can be changed (mutable) — even when you don’t want them to.
+
+
+🔄 What's really happening?
+When you create an object and give it to another variable or function... You're not giving a copy, you're just giving a link (like a pointer). So if you change it using that link, the original object also changes!
+
+
+🧸 Simple Example:
+Imagine you and your friend are sharing the same toy (object). If your friend paints the toy red, your toy is now red too — because it was the same toy. You didn’t make a new toy, you just gave them access to your toy.
+
+
+💥 That's why it's tricky:
+You think you're working with a new object, but you're actually still changing the original one without realizing it.
